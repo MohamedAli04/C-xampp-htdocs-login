@@ -1,0 +1,38 @@
+
+body{
+	height: 70%;
+	position: center;
+	text-align: justify;
+	padding: 0px;
+	margin: 4px;
+	font-size: 19px;
+	font-family: "Times New Roman";
+	color: white;
+	font-style: bold;
+}
+
+header{
+    
+	padding: 50px;
+	margin: 0px;
+	font-size: 28px;
+}
+footer{
+	padding: 50px;
+	margin: 0px;
+	position: center;
+	height: 20%;
+	font-size: 28px;
+}
+nav{
+
+	line-height: 100%;
+	text-align: justify;
+	padding: 30px;
+}
+td:hover{
+	color: red;
+	box-shadow: 3;
+	font-size: 19;
+
+}

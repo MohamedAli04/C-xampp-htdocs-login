@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Formulaire d'Affectation</title>
+</head><meta charset="utf-8"><link rel="stylesheet" type="text/css" href="">
+<body><center>
+    <h1> Enregistrement d'etudiant </h1>
+  <table>
+      <form method="POST" action="inserer_etudiant.php">      
+      <tr><td><input type="number" name="no_recu" placeholder="Numero du reçu"></td></tr>
+      <tr><td>Date d'aujourd'hui</td></tr>
+      <tr><td><input type="Date" name="date" placeholder="Date d'aujourd'hui"></td></tr>
+      <tr><td><input type="text" name="nom_etudiant" placeholder="Nom d'etudiant"></td></tr>
+      <tr><td>Date de Naissance</td></tr>
+      <tr><td><input type="Date" name="date_naissance" placeholder="Date de Naissance"></td></tr>
+      <tr><td><input type="tel" name="no_tel1" placeholder="N° Telephone 1"></td></tr>
+      <tr><td><input type="tel" name="no_tel2" placeholder="N° Telephone 2"></td></tr>
+      <tr><td><input type="text" name="formation" placeholder="Formation"></td></tr>
+      <tr><td><input type="text" name="formule" placeholder="Formule"></td></tr>
+     
+      <tr><td><select name="level" id="level">
+  <option value="L1" selected>Level 1 </option>
+  <option value="L2">Level 2</option>
+  <option value="L3">Level 3</option>
+  <option value="L2">Level 4</option>
+  <option value="L2">Level 5</option>
+  <option value="L2">Level 6</option>
+  <option value="L2">Level 7</option>
+  <option value="L2">Level 8</option>
+  <option value="L2">Level 9</option>
+</select></tr>
+    
+      
+      <tr><td><input type="reset" name="annuler" value="Annuler"></td><td><input type="submit" name="envoyer" value="Envoyer"></td></tr>
+      
+</form>
+</center>
+</body>
+</html>
